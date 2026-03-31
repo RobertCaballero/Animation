@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: b81d723c8e9d1df44a91054b4e3984dd
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 1
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: SecondaryAnimation(Clone)
+      parentName: 
+      position: {x: -85.32244, y: -0.31909952, z: 60.842762}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.08055172, y: 0.08055172, z: 0.08055172}
+    - name: Body.004
+      parentName: SecondaryAnimation(Clone)
+      position: {x: -31.109894, y: 70.8648, z: -0.49570382}
+      rotation: {x: -0.7071068, y: 1.9824066e-10, z: 1.9824069e-10, w: 0.7071067}
+      scale: {x: 14.501655, y: 14.501655, z: 14.501655}
+    - name: Front_Supporter
+      parentName: SecondaryAnimation(Clone)
+      position: {x: 38.026943, y: 27.916525, z: -0.8904104}
+      rotation: {x: -0.7068774, y: 0.01801059, z: -0.018010587, w: 0.70687735}
+      scale: {x: 14.116574, y: 13.402097, z: 14.116574}
+    - name: CTRL_ROLLER
+      parentName: SecondaryAnimation(Clone)
+      position: {x: 29.729336, y: 30.14709, z: 51.628853}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 0.2604293, y: 0.2604293, z: 0.2604293}
+    - name: Front_Wheel
+      parentName: CTRL_ROLLER
+      position: {x: 2.5010755, y: -199.90225, z: 7.0924807}
+      rotation: {x: 0.9889398, y: 0.000000011887137, z: -0.14831743, w: 0.00000008415417}
+      scale: {x: 47.668922, y: 47.668922, z: 47.668922}
+    - name: CTRL_WheelBR1
+      parentName: SecondaryAnimation(Clone)
+      position: {x: -48.968098, y: 26.14723, z: -50.68873}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 0.2384767, y: 0.2384767, z: 0.2384767}
+    - name: Wheel_Left_Back.001
+      parentName: CTRL_WheelBR1
+      position: {x: -1.4935664, y: 43.88068, z: 4.660958}
+      rotation: {x: 1, y: -0, z: 0, w: 0.00000008146034}
+      scale: {x: 52.05701, y: 52.05701, z: 52.05701}
+    - name: CTRL_WheelBL
+      parentName: SecondaryAnimation(Clone)
+      position: {x: -48.968098, y: 26.14723, z: 51.628853}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 0.2384767, y: 0.2384767, z: 0.2384767}
+    - name: Wheel_Right_Back.001
+      parentName: CTRL_WheelBL
+      position: {x: -2.0100853, y: -52.25866, z: 4.660958}
+      rotation: {x: 1, y: -0, z: 0, w: 0.00000008146034}
+      scale: {x: 52.05701, y: 52.05701, z: 52.05701}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

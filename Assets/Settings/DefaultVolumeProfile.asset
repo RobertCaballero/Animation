@@ -802,7 +802,7 @@ MonoBehaviour:
     m_Value: 30
   gaussianMaxRadius:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 1.146
   highQualitySampling:
     m_OverrideState: 1
     m_Value: 0
@@ -814,7 +814,7 @@ MonoBehaviour:
     m_Value: 5.6
   focalLength:
     m_OverrideState: 1
-    m_Value: 50
+    m_Value: 131
   bladeCount:
     m_OverrideState: 1
     m_Value: 5
